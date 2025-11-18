@@ -1,29 +1,46 @@
 {
   "expo": {
-    "name": "goldapp-mobile",
-    "slug": "goldapp-mobile",
-    "version": "1.0.0",
+    "name": "RozGold - Digital Gold Investment",
+    "slug": "rozgold-app",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFD700"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rozgold.app",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.rozgold.app",
+      "versionCode": 5,
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "minSdkVersion": 21,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFD700"
       },
-      "edgeToEdgeEnabled": true
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e98fa98-3d3b-47d4-b5f2-af66c82f2d52"
+      }
     }
   }
 }
