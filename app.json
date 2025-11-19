@@ -22,9 +22,6 @@
     "android": {
       "package": "com.rozgold.app",
       "versionCode": 5,
-      "compileSdkVersion": 35,
-      "targetSdkVersion": 35,
-      "minSdkVersion": 21,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFD700"
